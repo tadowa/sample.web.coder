@@ -21,32 +21,32 @@ Codemirrorを利用した、javascript editor です。
 使い方
 ---------------
 
-①動作確認する場合は、下記をインストールしてください。
+1.動作確認する場合は、下記をインストールしてください。
 
 Mac : [Docker Desktop](https://www.docker.com/products/docker-desktop)
 
 Windows : [Docker Compose](https://docs.docker.com/compose) 
 
-②フォルダ直下でビルドする。
+2.フォルダ直下でビルドする。
 ```
 docker-compose build
 ```
 
-③立ち上げ
+3.立ち上げる
 ```
 docker-compose up
 ```
 
-④起動したらブラウザでアクセスする。
+4.起動したらブラウザでアクセスする。
 [http://localhost:8080](http://localhost:8080)
 
-⑤Side Menuの「Step.1 コードの追加」を押す。
+5.Side Menuの「Step.1 コードの追加」を押す。
 
 タブが追加されます。ソースコード部分はCodemirror[https://codemirror.net/](https://codemirror.net/)を使っています。
 
 タブ名はランダム文字列です。
 
-⑥Side Menuの「Step.2 コードのテスト」を押す。
+6.Side Menuの「Step.2 コードのテスト」を押す。
 
 追加されたタブ中のソースコードをiframeに読み込ませます。
 
