@@ -1,0 +1,59 @@
+<html>
+<head>
+    <title>Editor JS Sample</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <meta name="description" content="html5,webaudioapi,javascript" />
+    <style>
+    </style>
+
+
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/codemirror.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/theme/vibrant-ink.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/theme/monokai.min.css">
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/codemirror.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/mode/javascript/javascript.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/addon/hint/javascript-hint.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.2/addon/lint/javascript-lint.min.js'></script>
+
+
+    <link rel="stylesheet" type="text/css" href="http://localhost:8080/public/css/main.css">
+    <link rel="stylesheet" type="text/css" href="http://localhost:8080/public/css/tabbar.css">
+    <link rel="stylesheet" type="text/css" href="http://localhost:8080/public/css/menubar.css">
+
+
+</head>
+<body>
+    <div class="main-grid">
+        <header>
+            <ul class="menu-group">
+                <li class="menu menu-A">Menu-A</li>
+                <li class="menu menu-B">Menu-B</li>
+                <li class="menu menu-C">Menu-C</li>
+            </ul>
+        </header>
+
+        <aside>
+            <h3>Side Menu</h3>
+            <ul>
+                <li><button id="test1">Step.1 コードの追加</button></li>
+                <li><button id="test2">Step.2 コードのテスト</button></li>
+            </ul>
+        </aside>
+
+        <main id="container"></main>
+
+        <section id="tester"></section>
+
+        <footer>
+            <h2>Footer</h2>
+        </footer>
+    </div>
+
+
+    <script type="module" src='http://localhost:8080/public/js/main.js'></script>
+
+
+</body>
+</html>

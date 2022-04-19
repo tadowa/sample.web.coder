@@ -1,0 +1,23 @@
+version: '3'
+services:
+
+  #==============================
+  reverse-proxy:
+    build: ./reverse-proxy/
+    image: reverse-proxy.001
+    container_name: reverse-proxy.001
+    ports:
+      - "8080:8080"
+    depends_on:
+      - web
+
+  web:
+    build: ./deno/
+    image: img.web.deno.001
+    container_name: container.web.deno.001
+    tty: true
+    ports:
+      - '3000:3000'
+    volumes:
+      - "./deno/:/var/www/html"
+    command: bash -c "source ~/.bash_profile && deno run --allow-net --allow-read server.ts"

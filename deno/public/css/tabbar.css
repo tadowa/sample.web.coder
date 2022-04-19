@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+.tabs{
+    display: flex;
+    justify-content: center;
+}
+
+.tab {
+    flex-grow: 1;
+    padding: 5px;
+    list-style: none;
+    border: solid 1px rgb(139, 139, 139);
+    color: rgb(163, 158, 158);
+    text-align: center;
+    cursor: pointer;
+    font-size: 1.0em;
+    height: 36px;
+}
+
+.panels {
+    border: solid 1px #CCC;
+    border-top: none;
+    background: #eee;
+}
+
+.panel {
+    display: none;
+}
+
+.tab.show {
+    background: rgb(60, 60, 60);
+    color: #FFF;
+    transition: all 0.2s ease-out;
+}
+
+.panel.show {
+    display: block;
+}
+
+.panel > * {
+    height: calc(100% - 36px);
+    background: #272822;
+    color: #FFF;
+}

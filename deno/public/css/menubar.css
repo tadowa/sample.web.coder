@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+.menu {
+    display: inline-block;
+    flex-grow: 1;
+    padding: 5px;
+    list-style: none;
+    color: #FFF;
+    text-align: center;
+    cursor: pointer;
+    font-size: 1.0em;
+    height: 36px;
+    max-width: 16em;
+}
