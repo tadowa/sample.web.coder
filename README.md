@@ -27,24 +27,34 @@ Mac : [Docker Desktop](https://www.docker.com/products/docker-desktop)
 
 Windows : [Docker Compose](https://docs.docker.com/compose) 
 
+
+
 2.フォルダ直下でビルドする。
 ```
 docker-compose build
 ```
+
+
 
 3.立ち上げる
 ```
 docker-compose up
 ```
 
+
+
 4.起動したらブラウザでアクセスする。
 [http://localhost:8080](http://localhost:8080)
+
+
 
 5.Side Menuの「Step.1 コードの追加」を押す。
 
 タブが追加されます。ソースコード部分はCodemirror[https://codemirror.net/](https://codemirror.net/)を使っています。
 
 タブ名はランダム文字列です。
+
+
 
 6.Side Menuの「Step.2 コードのテスト」を押す。
 
