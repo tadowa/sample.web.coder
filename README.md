@@ -50,7 +50,7 @@ docker-compose up
 
 5.Side Menuの「Step.1 コードの追加」を押す。
 
-タブが追加されます。ソースコード部分はCodemirror[https://codemirror.net/](https://codemirror.net/)を使っています。
+タブが追加されます。ソースコード部分はCodemirror : [https://codemirror.net/](https://codemirror.net/)を使っています。
 
 タブ名はランダム文字列です。
 
